@@ -1,0 +1,528 @@
+﻿<!DOCTYPE html>
+<html lang="fr-CA">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>🎸 Guitar HQ</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css">
+
+    <meta
+        name="theme-color"
+        content="#111111">
+
+</head>
+
+<body>
+
+<header class="hero">
+
+    <h1>🎸 Guitar HQ</h1>
+
+    <p>
+        Blues • The Cure • The Cult • Doom • Maîtrise du manche
+    </p>
+
+    <div class="hero-stats">
+
+        <div class="card stat">
+
+            <h3>Objectif</h3>
+
+            <p>
+                Redevenir un guitariste actif
+            </p>
+
+        </div>
+
+        <div class="card stat">
+
+            <h3>Priorité</h3>
+
+            <p>
+                Maîtrise du manche
+            </p>
+
+        </div>
+
+        <div class="card stat">
+
+            <h3>Plateforme</h3>
+
+            <p>
+                Spark + Guitar Mastery Method
+            </p>
+
+        </div>
+
+    </div>
+
+</header>
+
+<main>
+
+<section class="dashboard">
+
+    <h2>🎯 Aujourd'hui</h2>
+
+    <div class="button-grid">
+
+        <button
+            class="big-btn"
+            onclick="showDay('day1')">
+
+            🎸 Jour 1<br>
+            Blues & Technique
+
+        </button>
+
+        <button
+            class="big-btn"
+            onclick="showDay('day2')">
+
+            🎵 Jour 2<br>
+            Cure & Cult
+
+        </button>
+
+        <button
+            class="big-btn"
+            onclick="showDay('day3')">
+
+            🔥 Jour 3<br>
+            Doom & Création
+
+        </button>
+
+    </div>
+
+</section>
+
+<section class="quick-actions">
+
+    <h2>⚡ Actions rapides</h2>
+
+    <div class="button-grid">
+
+        <button
+            class="action-btn"
+            onclick="showSection('quick20')">
+
+            ⚡ J'ai 20 minutes
+
+        </button>
+
+        <button
+            class="action-btn"
+            onclick="randomPractice()">
+
+            🎲 Je ne sais pas quoi jouer
+
+        </button>
+
+        <button
+            class="action-btn"
+            onclick="showSection('fretboard')">
+
+            🧠 Fretboard Focus
+
+        </button>
+
+        <button
+            class="action-btn"
+            onclick="showSection('review')">
+
+            🔴 À retravailler
+
+        </button>
+
+    </div>
+
+</section>
+
+<section class="card">
+
+    <h2>📈 Progression</h2>
+
+    <div id="progressText">
+
+        0% complété
+
+    </div>
+
+</section>
+
+<section class="card">
+
+    <h2>🧠 Quiz du jour</h2>
+
+    <button
+        class="action-btn"
+        onclick="generateFretboardQuiz()">
+
+        Nouvelle question
+
+    </button>
+
+    <p id="quizQuestion">
+
+    </p>
+
+</section>
+
+<section
+    id="randomResult"
+    class="card hidden">
+
+    <h2>🎲 Inspiration du jour</h2>
+
+    <p id="randomText"></p>
+
+</section>
+
+<section
+    id="day1"
+    class="content-section hidden">
+
+    <h2>🎸 Jour 1 - Blues & Technique</h2>
+
+    <div class="card">
+
+        <h3>Guitare principale</h3>
+
+        <p>
+            Fender Jazzmaster American Performer
+        </p>
+
+        <p>
+            Preset : Jazzmaster Study
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <label>
+            <input type="checkbox">
+            Spider Exercise (5 min)
+        </label>
+
+        <label>
+            <input type="checkbox">
+            Alternate Picking (10 min)
+        </label>
+
+        <label>
+            <input type="checkbox">
+            Guitar Mastery Method (15 min)
+        </label>
+
+        <label>
+            <input type="checkbox">
+            Fretboard Focus (5 min)
+        </label>
+
+        <label>
+            <input type="checkbox">
+            Impro Blues (10 min)
+        </label>
+
+    </div>
+
+</section>
+
+<section
+    id="day2"
+    class="content-section hidden">
+
+    <h2>🎵 Jour 2 - The Cure / The Cult</h2>
+
+    <div class="card">
+
+        <p>
+            Jazzmaster ou Explorer
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <label>
+            <input type="checkbox">
+            Échauffement (5 min)
+        </label>
+
+        <label>
+            <input type="checkbox">
+            Guitar Mastery (15 min)
+        </label>
+
+        <label>
+            <input type="checkbox">
+            A Forest (15 min)
+        </label>
+
+        <label>
+            <input type="checkbox">
+            Fretboard Focus (5 min)
+        </label>
+
+        <label>
+            <input type="checkbox">
+            Jeu libre (5 min)
+        </label>
+
+    </div>
+
+</section>
+
+<section
+    id="day3"
+    class="content-section hidden">
+
+    <h2>🔥 Jour 3 - Doom & Création</h2>
+
+    <div class="card">
+
+        <p>
+            Cantrell D / Tele C / Jackson B
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <label>
+            <input type="checkbox">
+            Technique (10 min)
+        </label>
+
+        <label>
+            <input type="checkbox">
+            Guitar Mastery (15 min)
+        </label>
+
+        <label>
+            <input type="checkbox">
+            Fretboard Focus (5 min)
+        </label>
+
+        <label>
+            <input type="checkbox">
+            Créer un riff (15 min)
+        </label>
+
+    </div>
+
+</section>
+
+<section
+    id="quick20"
+    class="content-section hidden">
+
+    <h2>⚡ Mode 20 Minutes</h2>
+
+    <div class="card">
+
+        <h3>Blues Express</h3>
+
+        <ul>
+
+            <li>2 min Spider Exercise</li>
+
+            <li>3 min Fretboard Focus</li>
+
+            <li>5 min Guitar Mastery</li>
+
+            <li>10 min Impro Blues</li>
+
+        </ul>
+
+    </div>
+
+    <div class="card">
+
+        <h3>Cure Express</h3>
+
+        <ul>
+
+            <li>2 min Échauffement</li>
+
+            <li>5 min Guitar Mastery</li>
+
+            <li>13 min A Forest ou Just Like Heaven</li>
+
+        </ul>
+
+    </div>
+
+    <div class="card">
+
+        <h3>Doom Express</h3>
+
+        <ul>
+
+            <li>3 min Fretboard Focus</li>
+
+            <li>2 min Échauffement</li>
+
+            <li>15 min Riffs</li>
+
+        </ul>
+
+    </div>
+
+</section>
+
+<section
+    id="fretboard"
+    class="content-section hidden">
+
+    <h2>🧠 Fretboard Focus</h2>
+
+    <div id="fretboard-container"></div>
+
+</section>
+
+<section
+    id="review"
+    class="content-section hidden">
+
+    <h2>🔴 À retravailler</h2>
+
+    <div class="card">
+
+        <label>
+            <input type="checkbox">
+            Notes du manche
+        </label>
+
+        <label>
+            <input type="checkbox">
+            Vibrato
+        </label>
+
+        <label>
+            <input type="checkbox">
+            Bends
+        </label>
+
+        <label>
+            <input type="checkbox">
+            Just Like Heaven
+        </label>
+
+    </div>
+
+</section>
+
+<section class="songs">
+
+    <h2>🎵 Morceaux</h2>
+
+    <div id="songs-container"></div>
+
+</section>
+
+<section class="goals">
+
+    <h2>🎯 Objectifs des 12 semaines</h2>
+
+    <div id="goals-container"></div>
+
+</section>
+
+<section class="guitars">
+
+    <h2>🎸 Parc de guitares</h2>
+
+    <div id="guitars-container"></div>
+
+</section>
+
+<section class="presets">
+
+    <h2>🎛️ Presets Spark</h2>
+
+    <div id="presets-container"></div>
+
+</section>
+
+<section class="riffs">
+
+    <h2>🔥 Bibliothèque de riffs</h2>
+
+    <textarea
+        id="riffNotes"
+        placeholder="Riff #1, Riff #2, idées, accordages, etc...">
+    </textarea>
+
+</section>
+
+<section class="reward">
+
+    <div class="card unlock">
+
+        <h2>
+            🏆 Déblocage semaine 12
+        </h2>
+
+        <ul>
+
+            <li>✅ 30 séances</li>
+
+            <li>✅ Notes naturelles maîtrisées</li>
+
+            <li>✅ Cordes E et A maîtrisées</li>
+
+            <li>✅ A Forest solide</li>
+
+            <li>✅ 12 riffs enregistrés</li>
+
+        </ul>
+
+        <h3>
+
+            🔥 MODE AMPLIS À LAMPES
+            DÉVERROUILLÉ 🔥
+
+        </h3>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+
+    <p>
+
+        Guitar HQ
+
+        • Blues
+
+        • The Cure
+
+        • The Cult
+
+        • Doom
+
+        • Fretboard Mastery
+
+    </p>
+
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

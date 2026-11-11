@@ -1,0 +1,57 @@
+﻿[
+  {
+    "id": 1,
+    "name": "Fender Jazzmaster American Performer",
+    "tuning": "E Standard",
+    "role": "Étude, théorie, maîtrise du manche, The Cure",
+    "preset": "Jazzmaster Study",
+    "backupPreset": "Cure Atmosphere",
+    "priority": "Haute"
+  },
+  {
+    "id": 2,
+    "name": "Gibson Explorer",
+    "tuning": "E Standard",
+    "role": "The Cult, rock classique, riffs",
+    "preset": "Cult Crunch",
+    "backupPreset": "Sanctuary",
+    "priority": "Moyenne"
+  },
+  {
+    "id": 3,
+    "name": "Les Paul Vintage",
+    "tuning": "Eb Standard",
+    "role": "Blues, improvisation, bends, vibrato",
+    "preset": "Blues King",
+    "backupPreset": "Daily Driver",
+    "priority": "Haute"
+  },
+  {
+    "id": 4,
+    "name": "Epiphone Les Paul Jerry Cantrell Signature",
+    "tuning": "D Standard",
+    "role": "Heavy rock, stoner, transition vers le doom",
+    "preset": "Cantrell Dirt",
+    "backupPreset": "Cult Crunch",
+    "priority": "Moyenne"
+  },
+  {
+    "id": 5,
+    "name": "Squier Telecaster Classic Vibe HH",
+    "tuning": "C Standard",
+    "role": "Doom principal, composition, riffs lourds",
+    "preset": "Monolord",
+    "backupPreset": "Doom Cathedral",
+    "priority": "Haute"
+  },
+  {
+    "id": 6,
+    "name": "Jackson LM-1987",
+    "tuning": "B Standard",
+    "role": "Doom extrême, sludge, riffs massifs",
+    "preset": "Funeral Wizard",
+    "backupPreset": "Doom Cathedral",
+    "priority": "Moyenne"
+  }
+]
+

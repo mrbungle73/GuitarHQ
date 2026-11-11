@@ -1,0 +1,214 @@
+﻿[
+  {
+    "id": 1,
+    "name": "Jazzmaster Study",
+    "description": "Preset principal pour Guitar Mastery Method, théorie et maîtrise du manche.",
+    "amp": "Deluxe Reverb",
+    "gain": "3",
+    "bass": "5",
+    "mid": "5",
+    "treble": "6.5",
+    "effects": [
+      "Compression légère",
+      "Spring Reverb 15%"
+    ],
+    "styles": [
+      "Étude",
+      "Théorie",
+      "Manche"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Blues King",
+    "description": "Preset blues principal pour la Les Paul en Eb.",
+    "amp": "Bassman",
+    "gain": "4",
+    "bass": "5",
+    "mid": "7",
+    "treble": "6",
+    "effects": [
+      "Compression légère",
+      "Spring Reverb 10%"
+    ],
+    "styles": [
+      "Blues",
+      "Improvisation",
+      "Vibrato"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Cult Crunch",
+    "description": "Preset rock inspiré de The Cult.",
+    "amp": "Marshall Plexi",
+    "gain": "5",
+    "bass": "6",
+    "mid": "7",
+    "treble": "6",
+    "effects": [
+      "Tube Screamer Drive 15%",
+      "Delay 300ms",
+      "Hall Reverb 12%"
+    ],
+    "styles": [
+      "The Cult",
+      "Rock",
+      "Riffs"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sanctuary",
+    "description": "Preset dédié à She Sells Sanctuary.",
+    "amp": "Marshall Plexi",
+    "gain": "5.5",
+    "bass": "6",
+    "mid": "7",
+    "treble": "6",
+    "effects": [
+      "Tube Screamer",
+      "Delay 300ms",
+      "Reverb 15%"
+    ],
+    "styles": [
+      "The Cult",
+      "She Sells Sanctuary"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Cure Atmosphere",
+    "description": "Preset principal pour The Cure.",
+    "amp": "JC-120",
+    "gain": "2",
+    "bass": "5",
+    "mid": "4",
+    "treble": "7",
+    "effects": [
+      "Chorus",
+      "Delay 450ms",
+      "Hall Reverb 30%"
+    ],
+    "styles": [
+      "The Cure",
+      "Arpèges",
+      "Ambiance"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Cure Forest",
+    "description": "Preset optimisé pour A Forest.",
+    "amp": "JC-120",
+    "gain": "2",
+    "bass": "4.5",
+    "mid": "4",
+    "treble": "6.5",
+    "effects": [
+      "Chorus 70%",
+      "Delay 420ms",
+      "Reverb 25%"
+    ],
+    "styles": [
+      "A Forest"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Cantrell Dirt",
+    "description": "Preset heavy rock pour la Cantrell en D Standard.",
+    "amp": "JCM800",
+    "gain": "6",
+    "bass": "6",
+    "mid": "7",
+    "treble": "5",
+    "effects": [
+      "Boost léger",
+      "Reverb légère"
+    ],
+    "styles": [
+      "Heavy Rock",
+      "Stoner",
+      "Alice In Chains"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Monolord",
+    "description": "Preset doom principal pour la Telecaster en C Standard.",
+    "amp": "Orange Rockerverb",
+    "gain": "7",
+    "bass": "8",
+    "mid": "6",
+    "treble": "4",
+    "effects": [
+      "Big Muff",
+      "Reverb 20%"
+    ],
+    "styles": [
+      "Doom",
+      "Monolord",
+      "Windhand"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Doom Cathedral",
+    "description": "Preset doom polyvalent pour jam et composition.",
+    "amp": "Orange Rockerverb",
+    "gain": "7",
+    "bass": "8",
+    "mid": "6",
+    "treble": "4",
+    "effects": [
+      "Big Muff",
+      "Plate Reverb"
+    ],
+    "styles": [
+      "Doom",
+      "Stoner",
+      "Composition"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Funeral Wizard",
+    "description": "Preset sludge/doom extrême pour la Jackson en B Standard.",
+    "amp": "Orange",
+    "gain": "8",
+    "bass": "8",
+    "mid": "5",
+    "treble": "3",
+    "effects": [
+      "Big Muff Sustain 80%",
+      "Noise Gate",
+      "Plate Reverb 15%"
+    ],
+    "styles": [
+      "Electric Wizard",
+      "Sludge",
+      "Doom Extrême"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Daily Driver",
+    "description": "Preset universel pour jouer sans réfléchir.",
+    "amp": "Deluxe Reverb",
+    "gain": "4",
+    "bass": "5",
+    "mid": "5",
+    "treble": "6",
+    "effects": [
+      "Overdrive léger",
+      "Delay 250ms",
+      "Spring Reverb 15%"
+    ],
+    "styles": [
+      "Jam",
+      "Pratique générale"
+    ]
+  }
+]
+

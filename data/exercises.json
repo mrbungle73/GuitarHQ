@@ -1,0 +1,230 @@
+﻿{
+  "warmups": [
+    {
+      "name": "Spider Exercise",
+      "duration": "5 min",
+      "category": "Échauffement",
+      "goal": "Indépendance des doigts"
+    },
+    {
+      "name": "Chromatic Warmup",
+      "duration": "5 min",
+      "category": "Échauffement",
+      "goal": "Synchronisation main droite / main gauche"
+    }
+  ],
+
+  "fretboardFocus": {
+    "weeks1to4": [
+      {
+        "week": 1,
+        "focus": "Toutes les notes A"
+      },
+      {
+        "week": 2,
+        "focus": "Toutes les notes C"
+      },
+      {
+        "week": 3,
+        "focus": "Toutes les notes E"
+      },
+      {
+        "week": 4,
+        "focus": "Toutes les notes G"
+      }
+    ],
+
+    "weeks5to8": [
+      {
+        "week": 5,
+        "focus": "Corde de Mi grave"
+      },
+      {
+        "week": 6,
+        "focus": "Corde de Mi grave chronométrée"
+      },
+      {
+        "week": 7,
+        "focus": "Corde de La"
+      },
+      {
+        "week": 8,
+        "focus": "Cordes Mi et La"
+      }
+    ],
+
+    "weeks9to12": [
+      {
+        "week": 9,
+        "focus": "Octaves"
+      },
+      {
+        "week": 10,
+        "focus": "Fondamentales"
+      },
+      {
+        "week": 11,
+        "focus": "Quintes"
+      },
+      {
+        "week": 12,
+        "focus": "Tierces"
+      }
+    ]
+  },
+
+  "songs": [
+    {
+      "name": "A Forest",
+      "artist": "The Cure",
+      "status": "Déjà connu",
+      "phase": "Consolidation"
+    },
+    {
+      "name": "Just Like Heaven",
+      "artist": "The Cure",
+      "status": "À apprendre",
+      "phase": "Semaines 9 à 12"
+    },
+    {
+      "name": "She Sells Sanctuary",
+      "artist": "The Cult",
+      "status": "À apprendre",
+      "phase": "Semaines 5 à 12"
+    },
+    {
+      "name": "Rain",
+      "artist": "The Cult",
+      "status": "Optionnel",
+      "phase": "Semaines 5 à 12"
+    },
+    {
+      "name": "Thrill Is Gone",
+      "artist": "B.B. King",
+      "status": "Thème principal",
+      "phase": "Blues"
+    },
+    {
+      "name": "Sweet Home Chicago",
+      "artist": "Traditional Blues",
+      "status": "Rythmique",
+      "phase": "Blues"
+    }
+  ],
+
+  "quick20": [
+    {
+      "name": "Blues Express",
+      "steps": [
+        "2 min Spider Exercise",
+        "3 min Fretboard Focus",
+        "5 min Guitar Mastery",
+        "10 min Impro Blues"
+      ]
+    },
+    {
+      "name": "Cure Express",
+      "steps": [
+        "2 min Échauffement",
+        "5 min Guitar Mastery",
+        "13 min A Forest ou Just Like Heaven"
+      ]
+    },
+    {
+      "name": "Doom Express",
+      "steps": [
+        "3 min Fretboard Focus",
+        "2 min Échauffement",
+        "15 min Composition de riffs"
+      ]
+    }
+  ],
+
+  "correctiveTraining": [
+    {
+      "topic": "Vibrato",
+      "duration": "20 min",
+      "steps": [
+        "5 min vibrato lent",
+        "5 min vibrato après bend",
+        "10 min blues lent"
+      ]
+    },
+    {
+      "topic": "Bends",
+      "duration": "20 min",
+      "steps": [
+        "5 min demi-ton",
+        "5 min ton complet",
+        "5 min bend + vibrato",
+        "5 min application blues"
+      ]
+    },
+    {
+      "topic": "Notes du manche",
+      "duration": "20 min",
+      "steps": [
+        "Trouver tous les C",
+        "Trouver tous les G",
+        "Trouver tous les D",
+        "Quiz libre"
+      ]
+    },
+    {
+      "topic": "Just Like Heaven",
+      "duration": "20 min",
+      "steps": [
+        "Intro",
+        "Couplet",
+        "Refrain",
+        "Enchaînement"
+      ]
+    }
+  ],
+
+  "weeklyGoals": [
+    {
+      "week": 4,
+      "goals": [
+        "12 séances complétées",
+        "4 riffs enregistrés",
+        "A Forest confortable",
+        "Notes A C E G reconnues"
+      ]
+    },
+    {
+      "week": 8,
+      "goals": [
+        "Cordes E et A maîtrisées",
+        "8 riffs enregistrés",
+        "Début de She Sells Sanctuary"
+      ]
+    },
+    {
+      "week": 12,
+      "goals": [
+        "30 séances",
+        "12 riffs enregistrés",
+        "Impro blues 5 minutes",
+        "A Forest solide",
+        "Notes naturelles maîtrisées"
+      ]
+    }
+  ],
+
+  "randomIdeas": [
+    "Improviser un blues en A",
+    "Travailler uniquement le vibrato",
+    "Trouver toutes les notes C",
+    "Jouer A Forest avec l'album",
+    "Travailler Just Like Heaven",
+    "Composer un riff en D Standard",
+    "Composer un riff en C Standard",
+    "Composer un riff en B Standard",
+    "Travailler She Sells Sanctuary",
+    "Réviser les octaves",
+    "Réviser les quintes",
+    "Créer une intro doom atmosphérique"
+  ]
+}
+
